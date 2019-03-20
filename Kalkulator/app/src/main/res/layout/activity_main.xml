@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:textSize="25sp"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="6dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/buttonAdd"
+        android:textSize="20dp"
+        android:onClick="onClickAdd"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/buttonSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonAdd"
+        android:layout_alignLeft="@id/buttonAdd"
+        android:text="@string/buttonSub"
+        android:textSize="25sp"
+        android:onClick="onClickSub" />
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/buttonDiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonSub"
+        android:layout_alignLeft="@id/buttonAdd"
+        android:text="@string/buttonDiv"
+        android:textSize="20sp"
+        android:onClick="onClickDiv" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/buttonMul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonDiv"
+        android:layout_alignLeft="@id/buttonAdd"
+        android:text="@string/buttonMul"
+        android:textSize="20sp"
+        android:onClick="onClickMul"/>
+
+    <Spinner
+        android:id="@+id/spinnerNum1"
+        android:background="@color/colorAccent"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_alignTop="@id/buttonAdd"
+        android:entries="@array/spinnerNumbers" />
+
+    <Spinner
+        android:id="@+id/spinnerNum2"
+        android:background="@color/colorAccent"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/buttonAdd"
+        android:layout_alignTop="@id/buttonAdd"
+        android:entries="@array/spinnerNumbers" />
+
+</RelativeLayout>
