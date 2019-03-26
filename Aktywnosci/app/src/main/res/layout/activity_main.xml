@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@color/background">
+
+    <Button
+        android:id="@+id/bio_button"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignLeft="@id/imageView"
+        android:layout_marginTop="20dp"
+        android:onClick="onShowBio"
+        android:text="@string/bio_button_text" />
+
+    <Button
+        android:id="@+id/statistics_button"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignRight="@id/imageView"
+        android:layout_below="@id/imageView"
+        android:onClick="onShowStats"
+        android:text="@string/stats_button_text" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/talon" />
+
+</RelativeLayout>
