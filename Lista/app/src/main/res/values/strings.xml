@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">List</string>
+    <string name="app_info_txt">Some info about my application</string>
+    <string name="label_app_info">Info about app</string>
+    <string name="title_activity_books">BooksActivity</string>
+    <string name="label_books">List of books</string>
+    <string name="txt_painted_man">The Painted Man is a fantasy novel written by American writer Peter V. Brett.</string>
+    <string name="label_painted_man">The Painted Man</string>
+    <string name="card1_books">Books</string>
+    <string name="txt_deadpool">Deadpool is a 2016 American superhero film based on the Marvel Comics character of the same name, distributed by 20th Century Fox. It is the eighth installment of the X-Men film series and the first standalone Deadpool film. Directed by Tim Miller from a screenplay by Rhett Reese and Paul Wernick, the film stars Ryan Reynolds as Wade Wilson / Deadpool alongside Morena Baccarin, Ed Skrein, T. J. Miller, Gina Carano and Brianna Hildebrand. In the film, Wilson—as the antihero Deadpool—hunts down the man who gave him mutant abilities and caused his scarred physical appearance.</string>
+    <string name="label_films">List of films</string>
+    <string name="label_deadpool">Deadpool</string>
+    <string name="card2_films">Films</string>
+
+
+    <string-array name="book_list">
+        <item>The Painted Man</item>
+        <item>Game of Thrones</item>
+        <item>Joyland</item>
+    </string-array>
+
+    <string-array name="film_list">
+        <item>Deadpool</item>
+        <item>Deadpool 2</item>
+        <item>Once upon a Deadpool</item>
+    </string-array>
+</resources>
