@@ -13,11 +13,11 @@
     <string name="card2_films">Films</string>
 
 
-    <string-array name="book_list">
+<!--    <string-array name="book_list">
         <item>The Painted Man</item>
         <item>Game of Thrones</item>
         <item>Joyland</item>
-    </string-array>
+    </string-array>-->
 
     <string-array name="film_list">
         <item>Deadpool</item>

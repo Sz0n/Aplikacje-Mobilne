@@ -14,8 +14,7 @@
         <ListView
             android:id="@+id/list_of_books"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:entries="@array/book_list">
+            android:layout_height="wrap_content">
         </ListView>
 
 </LinearLayout>
