@@ -1,4 +1,4 @@
-#Tue May 14 20:04:21 CEST 2019
+#Tue May 14 20:59:18 CEST 2019
 base.0=C\:\\Users\\kamil\\StudioProjects\\Aplikacje-Mobilne\\Bazadanych\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 path.0=classes.dex
 renamed.0=classes.dex

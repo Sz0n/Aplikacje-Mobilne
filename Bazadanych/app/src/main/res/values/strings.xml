@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bazadanych</string>
+    <string-array name="options">
+        <item>Action</item>
+        <item>Horror</item>
+        <item>Comedy</item>
+    </string-array>
+    <string name="title_activity_film_category">Action movies</string>
+    <string name="title_activity_film">Movie details</string>
+    <string name="favourite">Your favourite movies</string>
+</resources>
